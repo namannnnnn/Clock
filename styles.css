@@ -1,0 +1,78 @@
+#clock {
+  position: relative;
+  margin: auto;
+  height: 40vw;
+  width: 40vw;
+  background: url(images/clocj.jpeg) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+#hour,
+#minute{
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#second {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#hour {
+  width: 1.8%;
+  height: 20%;
+  top: 17.9%;
+  left: 49.41%;
+}
+
+#minute {
+  width: 1.6%;
+  height: 25%;
+  top: 13%;
+  left: 49.65%;
+}
+
+#second {
+  width: 0.7%;
+  height: 30%;
+  top: 7.8%;
+  left: 49.8%;
+  opacity: 0.5;
+}
+
+#footer {
+  position: fixed;
+  
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  
+  height: 40px;
+}
+
+/* This was for my own reference to test it for the alignment and positioning when the hands rotate*/
+/* @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  #hour {
+    animation: rotate 60s infinite linear;
+  }
+  #minute {
+      animation: rotate 1s infinite linear;
+  }
+  #second {
+      animation: rotate 60s infinite linear;
+  } */
